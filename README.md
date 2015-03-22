@@ -5,6 +5,11 @@ When you need more Tomek in your Django.
 
 ![](https://pbs.twimg.com/profile_images/479006437620715520/ELZFySWs.jpeg)
 
+Install
+-------
+
+`pip install tomek`
+
 Usage
 -----
 
