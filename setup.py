@@ -1,4 +1,8 @@
+from pathlib import Path
 from setuptools import find_packages, setup
+
+
+TOPLEVEL = Path(__file__).parent.resolve()
 
 
 setup(
@@ -7,6 +11,8 @@ setup(
     include_package_data=True,
     version='0.1',
     description='Need more Tomek in your Django?',
+    long_description=(TOPLEVEL / 'README.md').read_text(encoding='utf8'),
+    long_description_content_type="text/markdown",
     author='Marc Tamlyn',
     author_email='marc.tamlyn@gmail.com',
     url='https://github.com/mjtamlyn/tomek',
