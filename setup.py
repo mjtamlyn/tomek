@@ -9,7 +9,7 @@ setup(
     name='tomek',
     packages=find_packages(),
     include_package_data=True,
-    version='0.1',
+    version='0.3',
     description='Need more Tomek in your Django?',
     long_description=(TOPLEVEL / 'README.md').read_text(encoding='utf8'),
     long_description_content_type="text/markdown",
